@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="sort_array">
+        <item>RED</item>
+        <item>GREEN</item>
+        <item>BLUE</item>
+        <item>FAVORITES</item>
+        <item>DEFAULT</item>
+    </string-array>
+
+</resources>

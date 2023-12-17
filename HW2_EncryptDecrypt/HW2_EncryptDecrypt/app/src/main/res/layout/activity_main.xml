@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:scrollbarSize="10dp"
+    tools:context=".MainActivity">
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:max="25"
+        android:layout_weight="1" />
+
+    <EditText
+        android:id="@+id/editTextCurse"
+        android:layout_width="match_parent"
+        android:layout_height="307dp"
+        android:layout_weight="1"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:hint="Input word to encrypt"
+        android:text=""
+        android:textSize="34sp" />
+
+    <TextView
+        android:id="@+id/percentageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:text="0"
+        android:textColor="@color/teal_200"
+        android:layout_marginLeft="175dp"
+        android:textSize="30sp"/>
+
+    <SeekBar
+        android:id="@+id/sliderBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:scrollbarThumbHorizontal="@color/black"
+        android:max="25"
+        android:scrollbarSize="10dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_weight="1"
+        android:backgroundTint="@android:color/darker_gray"
+        android:onClick="click"
+        android:text="ENCRYPT"
+        android:textColor="@color/black"
+        android:textSize="30dp" />
+
+</LinearLayout>
